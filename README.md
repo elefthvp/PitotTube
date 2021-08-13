@@ -1,4 +1,4 @@
-# PitotTube
+# Pitot Tube
 A library and an Arduino sketch for a Pitot Tube used to measure the relative velocity of an Unmanned Aerial Vehicle. Implemented for the ASAT Aeronautics Project.
 ## Main Idea
 <p align=justify> A Pitot Tube is a device used to measure flow velocity. The Aeronautics Project uses one to determine airspeed velocity of the aircraft it constucts. </br> </p>
