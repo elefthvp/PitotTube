@@ -31,6 +31,7 @@ we derive the airspeed in m/s. Mind that the pressure has to be in Pascal, so an
 
 ## Constructor Default Values
 <p align=justify> The default values of the constructor that should preferably be changed right after the creation of a pitot object to obtain accurate data.  <br></p>
+
 |Design Parameter| Descirption | Default Value | 
 |---|---|---|
 | sensorPin | The pin where the Analog pin of the MPXV7002DP sensor is connected | 4 |  
