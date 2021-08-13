@@ -20,7 +20,7 @@ Actually, the space between 510 and 514 can be considered a dead zone with a dea
 <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;P=Vout-2.5" title="P=Vout-2.5" /> 
 where P is in kPa <br></p>
 
-### Bernoulli Velocity
+###Bernoulli Velocity
 <p align=justify> Using the formula 
 <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;\sqrt{(2*P/rho))}" title="\sqrt{(2*P/rho))}" />
 we derive the airspeed in m/s. Mind that the pressure has to be in Pascal, so an intermediate calculation from kPa to Pa happens.  <br></p>
