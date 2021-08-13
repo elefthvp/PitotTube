@@ -23,11 +23,13 @@ Actually, the space between 510 and 514 can be considered a dead zone with a dea
 where P is in kPa <br></p>
 
 ###Bernoulli Velocity
+
 <p align=justify> Using the formula 
 <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;\sqrt{(2*P/rho))}" title="\sqrt{(2*P/rho))}" />
 we derive the airspeed in m/s. Mind that the pressure has to be in Pascal, so an intermediate calculation from kPa to Pa happens.  <br></p>
 
 ## Constructor Default Values
+
 |Design Parameter| Descirption | Default Value | 
 |---|---|---|
 | sensorPin | The pin where the Analog pin of the MPXV7002DP sensor is connected | 4 |  
