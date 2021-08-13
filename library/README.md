@@ -15,15 +15,15 @@ Actually, the space between 510 and 514 can be considered a dead zone with a dea
  <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;Vout&space;=&space;vref*input/512" title="Vout = vref*input/512" />
  Note that vref is the chosen reference voltage of the Arduino Board, usually 3 or 5.
 <br></p>
-###  Pressure Derivation
-The ouput voltage is used as an input to the transfer function given in the datasheet of the sensor. A simplified version of it is:
+### Pressure Derivation
+<p align=justify>The ouput voltage is used as an input to the transfer function given in the datasheet of the sensor. A simplified version of it is:
 <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;P=Vout-2.5" title="P=Vout-2.5" /> 
-where P is in kPa
+where P is in kPa <br></p>
 
 ### Bernoulli Velocity
-Using the formula 
+<p align=justify> Using the formula 
 <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;\sqrt{(2*P/rho))}" title="\sqrt{(2*P/rho))}" />
-we derive the airspeed in m/s. Mind that the pressure has to be in Pascal, so an intermediate calculation from kPa to Pa happens.
+we derive the airspeed in m/s. Mind that the pressure has to be in Pascal, so an intermediate calculation from kPa to Pa happens.  <br></p>
 
 ## Constructor Default Values
 |Design Parameter| Descirption | Default Value | 
