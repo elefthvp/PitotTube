@@ -30,7 +30,7 @@ where P is in kPa <br></p>
 we derive the airspeed in m/s. Mind that the pressure has to be in Pascal, so an intermediate calculation from kPa to Pa happens.  <br></p>
 
 ## Constructor Default Values
-<p align=justify> The default values of the constructor that should preferably be changed right after the creation of a pitot object to obtain accurate data.  <br></p>
+<p align=justify> The default values of the constructor that should preferably be changed right after the creation of a Pitot object so as to obtain accurate data.  <br></p>
 
 |Design Parameter| Descirption | Default Value | 
 |---|---|---|
