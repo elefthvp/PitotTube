@@ -1,10 +1,6 @@
 # Pitot Library
 <p align=justify> This library is inserted to create and initialize a Pitot object in an Arduino script. Define an object and call the PITOT_update() function in the loop section. 
-|Design Parameter| Descirption |  | Default Value | 
-|---|---|:---:|
-| sensorPin | The pin where the Analog pin of the MPXV7002DP sensor is connected | 4 |  
-| zero_span | The span considered when checking the deadzone | 2 |  
-| rho| Air density of the area we're in, needs to be adjusted | 1.204 |  
+ 
 ## Operation Principle of the MPXV7002DP sensor 
 ### Read value
 <p align=justify> This sensor can measure differential pressure in the range of -2 to 2 kPa.
@@ -28,3 +24,11 @@ where P is in kPa
 Using the formula 
 <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;\sqrt{(2*P/rho))}" title="\sqrt{(2*P/rho))}" />
 we derive the airspeed in m/s. Mind that the pressure has to be in Pascal, so an intermediate calculation from kPa to Pa happens.
+
+## Constructor Default Values
+|Design Parameter| Descirption | Default Value | 
+|---|---|---|
+| sensorPin | The pin where the Analog pin of the MPXV7002DP sensor is connected | 4 |  
+| zero_span | The span considered when checking the deadzone | 2 |  
+| rho| Air density of the area we're in, needs to be adjusted according to our location | 1.204 | 
+---
