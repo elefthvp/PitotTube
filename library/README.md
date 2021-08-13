@@ -1,5 +1,6 @@
 # Pitot Library
-<p align=justify> This library is inserted to create and initialize a Pitot object in an Arduino script. Define an object and call the PITOT_update() function in the loop section. 
+<p align=justify> This library is inserted in an Arduino script to create a Pitot object used for data measurements. Define an object and call the PITOT_update() function in the loop section. 
+Reading the operation principle of the employed sensor is the key to understanding the layout and overall function of this library. In order to take a measurement, after the PITOT_update() function is called from the main script, the functions of the library call each other in a serial manner that resembles a chain, each doing its part to achieve the overall goal of Bernoulli velocity calculation.
  
 ## Operation Principle of the MPXV7002DP sensor 
 ### Read value
@@ -23,13 +24,13 @@ Actually, the space between 510 and 514 can be considered a dead zone with a dea
 <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;P=Vout-2.5" title="P=Vout-2.5" /> 
 where P is in kPa <br></p>
 
-###Bernoulli Velocity
+### Bernoulli Velocity
 <p align=justify> Using the formula 
 <img src="https://latex.codecogs.com/gif.latex?\bg_white&space;\sqrt{(2*P/rho))}" title="\sqrt{(2*P/rho))}" />
 we derive the airspeed in m/s. Mind that the pressure has to be in Pascal, so an intermediate calculation from kPa to Pa happens.  <br></p>
 
 ## Constructor Default Values
-
+<p align=justify> The default values of the constructor that should preferably be changed right after the creation of a pitot object to obtain accurate data.  <br></p>
 |Design Parameter| Descirption | Default Value | 
 |---|---|---|
 | sensorPin | The pin where the Analog pin of the MPXV7002DP sensor is connected | 4 |  
