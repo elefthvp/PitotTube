@@ -13,10 +13,9 @@ A library and an Arduino sketch for a Pitot Tube used to measure the relative ve
 <p align=justify> The Pitot Tube consists of a tube that points directly into the fluid we desire to measure. We thus measure the stagnation pressure and then subtract the static pressure to calculate the dynamic pressure.</br> </p>
 <p align=justify> The dynamic pressure is then used in Bernoulli's equation for flow velocity, taking the rho constant (fluid density) of the atmosphere in the area where the experiments are taking place into consideration. 
 
+## Contact me
 
+- [e-mail elefthvp](mailto:el.papaioannou.96@gmail.com "el.papaioannou.96@gmail.com")
 
-
-
-
-
+---
 
